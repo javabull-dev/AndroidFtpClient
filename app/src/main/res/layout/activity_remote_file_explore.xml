@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RemoteFileExplore"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/fp_buttonsLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:padding="5sp">
+
+        <Button
+            android:id="@+id/return_main_activity"
+            android:layout_width="3dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:focusable="true"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="返回"
+            android:textColor="#333" />
+
+        <Button
+            android:id="@+id/download_file"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:focusable="true"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="下载文件"
+            android:textColor="#333" />
+
+        <Button
+            android:id="@+id/delete_dir"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:focusable="true"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="删除文件夹"
+            android:textColor="#333" />
+
+        <Button
+            android:id="@+id/delete_file"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:focusable="true"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="删除文件"
+            android:textColor="#333" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/fp_tv_location"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginStart="5dp"
+        android:gravity="left"
+        android:padding="5dp"
+        android:text="当前目录"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="#333" />
+
+    <ListView
+        android:id="@+id/file_listView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

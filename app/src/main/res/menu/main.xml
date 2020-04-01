@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <item
+        android:title="远程目录"
+        android:id="@+id/remote_file"
+        />
+
+    <item
+        android:title="FTP设置"
+        android:id="@+id/ftp_set"
+        />
+
+</menu>

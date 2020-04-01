@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SetActivity">
+
+    <TextView
+        app:layout_goneMarginLeft="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#B6B6B6"
+        android:gravity="center"
+        android:text="ftp设置"
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/t1"
+        android:layout_width="97dp"
+        android:layout_height="26dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:text="名称"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/ftp_nick"
+        android:layout_width="271dp"
+        android:layout_height="28dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/edittext_border" />
+
+    <TextView
+        android:id="@+id/t2"
+        android:layout_width="97dp"
+        android:layout_height="26dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:text="ftp用户名"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/ftp_user_name"
+        android:layout_width="271dp"
+        android:layout_height="28dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/edittext_border" />
+
+    <TextView
+        android:id="@+id/t3"
+        android:layout_width="98dp"
+        android:layout_height="24dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:text="ftp密码"
+        android:textSize="20dp"
+        android:focusableInTouchMode="true"/>
+
+    <EditText
+        android:id="@+id/ftp_password"
+        android:layout_width="269dp"
+        android:layout_height="29dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/edittext_border" />
+
+    <TextView
+        android:id="@+id/t4"
+        android:layout_width="98dp"
+        android:layout_height="24dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:text="协议"
+        android:textSize="20dp"
+        android:focusableInTouchMode="true"/>
+
+    <Spinner
+        android:id="@+id/protol"
+        android:layout_width="269dp"
+        android:layout_height="29dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        />
+
+    <TextView
+        android:id="@+id/t5"
+        android:layout_width="97dp"
+        android:layout_height="26dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:text="地址"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/address"
+        android:layout_width="271dp"
+        android:layout_height="28dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/edittext_border" />
+
+    <TextView
+        android:id="@+id/t6"
+        android:layout_width="97dp"
+        android:layout_height="26dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:text="端口号"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/port"
+        android:layout_width="271dp"
+        android:layout_height="28dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/edittext_border" />
+
+    <Button
+        android:id="@+id/return_main"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="210dp"
+        android:layout_marginTop="50dp"
+        android:text="完成" />
+
+</LinearLayout>
